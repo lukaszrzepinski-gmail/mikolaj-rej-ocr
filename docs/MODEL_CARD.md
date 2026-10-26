@@ -46,9 +46,9 @@ Pomoc w badaniach, transkrypcji i przeglądzie archiwaliów z ręczną kontrolą
 
 Własny chroniony wkład Łukasza Rzepińskiego: użycie niekomercyjne z atrybucją; komercyjne za odrębną pisemną zgodą. To **nie MIT**. Zakres i wyłączenia określają LICENSE i NOTICE.md. Oryginalny McCATMuS pozostaje CC BY 4.0; te warunki nie odbierają praw upstream ani nie ograniczają domeny publicznej. Pełny rejestr praw do dodatkowych danych oraz dokładny korpus Diariusz LM nie zostały odtworzone. Publikacja zachowuje jawny opis tych braków; nie stanowi deklaracji pełnego odtworzenia historii danych.
 
-## Projekt zrodlacyfrowe.pl
+## Projekt zbiorycyfrowe.pl
 
-[zrodlacyfrowe.pl](https://zrodlacyfrowe.pl/) to projekt przetwarzania zasobów archiwalnych przy użyciu sztucznej inteligencji. MikołajRej OCR jest narzędziem wspierającym rozpoznawanie i opracowanie tekstu historycznych dokumentów.
+[zbiorycyfrowe.pl](https://zbiorycyfrowe.pl/) to projekt przetwarzania zasobów archiwalnych przy użyciu sztucznej inteligencji. MikołajRej OCR jest narzędziem wspierającym rozpoznawanie i opracowanie tekstu historycznych dokumentów.
 
 
 ## Kod i aplikacja

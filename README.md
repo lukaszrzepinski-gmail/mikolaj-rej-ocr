@@ -16,7 +16,7 @@ Model E26 ma macro CER 7,19% na **RAW110 pseudo DEV używanym do wyboru epoki**.
 
 Repozytorium udostępnia kod do lokalnego uruchomienia. Samo opublikowanie kodu nie uruchamia serwera, GPU Spaces, endpointu ani subskrypcji. Raporty i historia użytkownika powstają dopiero lokalnie i nie są przykładowymi danymi repozytorium.
 
-## Projekt zrodlacyfrowe.pl
+## Projekt zbiorycyfrowe.pl
 
-[zrodlacyfrowe.pl](https://zrodlacyfrowe.pl/) to projekt przetwarzania zasobów archiwalnych przy użyciu sztucznej inteligencji. MikołajRej OCR jest narzędziem wspierającym rozpoznawanie i opracowanie tekstu historycznych dokumentów.
+[zbiorycyfrowe.pl](https://zbiorycyfrowe.pl/) to projekt przetwarzania zasobów archiwalnych przy użyciu sztucznej inteligencji. MikołajRej OCR jest narzędziem wspierającym rozpoznawanie i opracowanie tekstu historycznych dokumentów.
 
