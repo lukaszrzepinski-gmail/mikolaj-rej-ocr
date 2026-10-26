@@ -1,39 +1,59 @@
-# MikołajRej OCR
+# MikołajRej
+
+### From archival scans to readable text.
 
 **English** · [Polski](README.pl.md)
 
-MikołajRej helps researchers and archival projects read and process historical documents with AI. It turns local scans into reviewable text while keeping each reading connected to the image. The goal is to make historical sources easier to transcribe and work with, with human review of names, dates, digits and difficult passages.
+Explore historical handwriting in a local web application. Browse scans, segment pages into lines, recognize the text and inspect each reading alongside the original image.
 
-The local web application includes an image gallery, rotation, page-to-line segmentation, column-aware reading order, recognition, optional Diariusz LM decoding, saved result history, model/LM comparisons, an interactive scan-to-text report and manual line corrections.
+**[Download model + Diariusz LM](https://huggingface.co/lukaszrzepinski/MikolajRej/tree/main) · [Get the application](https://github.com/lukaszrzepinski-gmail/mikolaj-rej-ocr) · [Quick start](docs/QUICKSTART.md)**
 
-## Get the model and run locally
+[![MikołajRej: the application showing a historical scan and its reading](screenshots/app-reader.png)](screenshots/app-reader.png)
 
-- [MikołajRej model weights and Diariusz LM on Hugging Face](https://huggingface.co/lukaszrzepinski/MikolajRej).
-- [English installation and pipeline quick start](docs/QUICKSTART.md).
-- [English model card, evaluation and limitations](docs/MODEL_CARD.md).
-- [Scan → saved RAW examples](examples/README.md) and [static showcase source](docs/showcase/index.html).
-- Original detailed Polish instructions: [web app and pipeline](docs/WEB_APP.md), [PAGE XML wrapper](docs/LOCAL_INFERENCE.md), [Diariusz LM](docs/DIARIUSZ_LM.md), [evaluation](docs/EVALUATION.md), [data provenance](docs/DATA_PROVENANCE.md).
+*The real application: scan and reading side by side, with linked line highlighting.*
 
-The full app targets Windows and Python 3.12, defaults to CPU and runs at http://127.0.0.1:5057 . Download the model files to `models/`, verify them with `python scripts/verify_models.py --directory models`, then start `python app/serwer_gui.py` in a prepared environment. The quick start explains dependencies, optional KenLM and the limits of testing. Source publication does not deploy an online OCR service.
+## Read. Compare. Review.
 
-## Results and limitations
+- **Find your way through a collection** — scan gallery, rotation and batch selection.
+- **Keep the page structure** — line segmentation, columns and reading order.
+- **Compare readings** — RAW recognition, optional Diariusz LM and saved model versions.
+- **Stay close to the source** — interactive scan-to-text reports, line highlighting and manual corrections.
 
-E26 achieved **7.19% macro CER on RAW110 pseudo DEV used for epoch selection**. The combined system with Diariusz LM achieved 5.84% macro CER on the same set. This is not independent human-gold evaluation. The 1.314% Diariusz result refers to only 24 known lines; the separate known D17 diagnostic is 9.95% RAW and 8.73% with LM, with reference limitations. Accuracy on genuinely unseen writers and books, and reliable preservation of names/digits, remain unverified. The model card describes provenance and incomplete historical corpus documentation.
+## See it in action — 12 screens
 
-## Research use, public-interest projects and attribution
+Click a screen to open it at full size. The gallery combines supplied application views with saved readings of diary pages and historical codices.
 
-Non-commercial scientific research and public-interest projects are welcome, subject to the licence and attribution requirements. Credit **Łukasz Rzepiński**, retain the licence and applicable third-party notices, and identify your modifications.
+| | |
+|---|---|
+| **01 · Interactive scan-to-text reader**<br>[![Interactive scan-to-text reader](screenshots/app-reader.png)](screenshots/app-reader.png) | **02 · Scan gallery and stored model runs**<br>[![Scan gallery and stored model runs](screenshots/app-gallery.png)](screenshots/app-gallery.png) |
+| **03 · Archival register in the application**<br>[![Archival register in the application](screenshots/app-register.png)](screenshots/app-register.png) | **04 · Rybeńko diary · r01-R**<br>[![Rybeńko diary · r01-R](screenshots/reading-01.png)](screenshots/reading-01.png) |
+| **05 · Rybeńko diary · r02-L**<br>[![Rybeńko diary · r02-L](screenshots/reading-02.png)](screenshots/reading-02.png) | **06 · Rybeńko diary · r02-R**<br>[![Rybeńko diary · r02-R](screenshots/reading-03.png)](screenshots/reading-03.png) |
+| **07 · Psałterz floriański · saved line**<br>[![Psałterz floriański · saved line](screenshots/reading-04.png)](screenshots/reading-04.png) | **08 · Psałterz floriański · saved line**<br>[![Psałterz floriański · saved line](screenshots/reading-05.png)](screenshots/reading-05.png) |
+| **09 · Rozmyślanie przemyskie · saved line**<br>[![Rozmyślanie przemyskie · saved line](screenshots/reading-06.png)](screenshots/reading-06.png) | **10 · Rozmyślanie przemyskie · saved line**<br>[![Rozmyślanie przemyskie · saved line](screenshots/reading-07.png)](screenshots/reading-07.png) |
+| **11 · Ortyle prawa magdeburskiego · saved line**<br>[![Ortyle prawa magdeburskiego · saved line](screenshots/reading-08.png)](screenshots/reading-08.png) | **12 · Ortyle prawa magdeburskiego · saved line**<br>[![Ortyle prawa magdeburskiego · saved line](screenshots/reading-09.png)](screenshots/reading-09.png) |
 
-**Commercial use of rights covered by this project's licence requires prior contact and separate written permission from the author.** The author would be happy to hear how you use the project; sending an update is appreciated, but **voluntary**.
+*Recorded outputs, including errors. Original application views may show earlier versions. Saved E26 previews use known development examples, not an independent test. [Sources and reading provenance](screenshots/README.md).*
 
-These are custom terms, **not the MIT licence**. They apply only to rights the author actually holds. They do not remove upstream permissions, restrict public-domain material, or override uses permitted by law. See [LICENSE](LICENSE), its [English translation](LICENSE.en.md), and [NOTICE.md](NOTICE.md).
+## Run it on your own computer
 
-## Related archival project
+Get the [application code](https://github.com/lukaszrzepinski-gmail/mikolaj-rej-ocr) and the [model files](https://huggingface.co/lukaszrzepinski/MikolajRej/tree/main), then follow the [English quick start](docs/QUICKSTART.md). The full application targets Windows / Python 3.12 and defaults to CPU. This release provides local software and downloads; it does not run a hosted OCR service.
+
+## Research and public-interest projects
+
+Non-commercial scientific research and public-interest projects are welcome, **with attribution to Łukasz Rzepiński** and compliance with the licence. The author would be happy to hear how you use the project; notification is voluntary.
+
+**Commercial use of covered rights requires prior contact and separate written permission:** [lukasz.rzepinski@gmail.com](mailto:lukasz.rzepinski@gmail.com). These are custom terms, **not MIT**; upstream permissions and public-domain material remain unaffected. [Terms](LICENSE) · [English translation](LICENSE.en.md).
+
+## About the project and author
 
 [zbiorycyfrowe.pl](https://zbiorycyfrowe.pl/) is a project for processing archival resources with artificial intelligence. MikołajRej supports recognition and transcription work on historical documents.
 
-## Author and contact
-
 **Łukasz Rzepiński** is a Solution Architect working in clinical research, with previous experience in banking and telecommunications. He is the author of [ofertarium.pl](https://ofertarium.pl/), [lekoskop.pl](https://lekoskop.pl/), [ostint.pl](https://ostint.pl/) and [zrodlacyfrowe.pl](https://zrodlacyfrowe.pl/).
 
-Contact, including requests for commercial-use permission: [lukasz.rzepinski@gmail.com](mailto:lukasz.rzepinski@gmail.com).
+Contact: [lukasz.rzepinski@gmail.com](mailto:lukasz.rzepinski@gmail.com).
+
+## Documentation
+
+[Full model card and provenance](docs/MODEL_CARD.md) · [Evaluation and limitations](docs/EVALUATION.md) · [File and source notices](NOTICE.md) · [Checksums](SHA256SUMS).
+
+Names, dates and digits still need human review. The detailed model card keeps the known-DEV caveats, source limitations and runtime verification scope; the screenshots are illustrative, not a new benchmark.
