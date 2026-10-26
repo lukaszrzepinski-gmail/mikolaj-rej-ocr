@@ -1,0 +1,37 @@
+[English](README.md) · **Polski**
+
+# MikołajRej OCR
+
+Lokalna aplikacja webowa do historycznych rękopisów: galeria skanów → segmentacja → kolumny i kolejność czytania → Kraken E26 → opcjonalny Diariusz LM → raport skan ↔ tekst, historia wariantów i poprawki.
+
+Autor nowego wkładu: **Łukasz Rzepiński**. Komercyjne wykorzystanie jego praw wymaga odrębnej pisemnej zgody; zachowaj atrybucję i warunki LICENSE. McCATMuS, Kraken, KenLM oraz domena publiczna mają odrębne zakresy praw w NOTICE.md.
+
+- [Instalacja aplikacji, pipeline i segmentacji](docs/WEB_APP.md)
+- [Wrapper OCR z gotowym PAGE XML](docs/LOCAL_INFERENCE.md)
+- [Model card](docs/MODEL_CARD.md), [wyniki i ograniczenia](docs/EVALUATION.md)
+- [Diariusz LM](docs/DIARIUSZ_LM.md), [pochodzenie danych](docs/DATA_PROVENANCE.md)
+- [Przykłady skan → RAW](examples/README.md), [statyczna prezentacja](docs/showcase/index.html)
+
+Model E26 ma macro CER 7,19% na **RAW110 pseudo DEV używanym do wyboru epoki**. To nie niezależny benchmark human gold. Z Diariusz LM wynik całego systemu wynosi 5,84% macro na tym samym zbiorze. Nie potwierdzono celu jakości na rzeczywiście nieznanych źródłach.
+
+[Wagi MikołajRej i Diariusz LM](https://huggingface.co/lukaszrzepinski/MikolajRej/tree/main) są udostępnione w osobnym repozytorium modelu HF; nie dodawaj ich do repozytorium kodu. Umieść pobrane artefakty w models/ i uruchom `python scripts/verify_models.py --directory models`. Następnie w przygotowanym środowisku Python 3.12: `python app/serwer_gui.py` i http://127.0.0.1:5057 . Pełna aplikacja ma kontrolę zasobów Windows i domyślnie używa CPU. Instalacja od zera i OCR w nowym środowisku nie zostały tu wykonane; szczegółowy zakres sprawdzenia jest w instrukcji.
+
+Repozytorium udostępnia kod do lokalnego uruchomienia. Samo opublikowanie kodu nie uruchamia serwera, GPU Spaces, endpointu ani subskrypcji. Raporty i historia użytkownika powstają dopiero lokalnie i nie są przykładowymi danymi repozytorium.
+
+## Projekt zbiorycyfrowe.pl
+
+[zbiorycyfrowe.pl](https://zbiorycyfrowe.pl/) to projekt przetwarzania zasobów archiwalnych przy użyciu sztucznej inteligencji. MikołajRej OCR jest narzędziem wspierającym rozpoznawanie i opracowanie tekstu historycznych dokumentów.
+
+## O autorze i kontakt
+
+**Łukasz Rzepiński** jest Solution Architectem pracującym w branży badań klinicznych. Wcześniej pracował w bankowości i telekomunikacji. Jest autorem serwisów [ofertarium.pl](https://ofertarium.pl/), [lekoskop.pl](https://lekoskop.pl/), [ostint.pl](https://ostint.pl/) i [zrodlacyfrowe.pl](https://zrodlacyfrowe.pl/).
+
+Kontakt z autorem, w tym w sprawie zgody na wykorzystanie komercyjne: [lukasz.rzepinski@gmail.com](mailto:lukasz.rzepinski@gmail.com).
+
+
+
+## Badania, projekty publiczne i atrybucja
+
+Projekt można wykorzystywać do niekomercyjnych badań naukowych i projektów realizowanych w interesie publicznym, z zachowaniem informacji o autorze i warunków licencji. Wykorzystanie komercyjne praw objętych licencją wymaga wcześniejszego kontaktu z Łukaszem Rzepińskim i jego odrębnej zgody: lukasz.rzepinski@gmail.com.
+
+Autorowi będzie miło, jeśli dasz znać, do czego wykorzystujesz projekt. Taka wiadomość jest dobrowolna i nie stanowi dodatkowego warunku licencji. Szczegóły i prawa upstream określa LICENSE. To własne warunki, nie MIT.
