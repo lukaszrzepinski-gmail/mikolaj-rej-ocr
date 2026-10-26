@@ -1,0 +1,1 @@
+Umieść tutaj zatwierdzone pliki E26 .mlmodel i opcjonalne lm6B.bin. Nie zapisuj ich w repozytorium kodu. Sumy kontrolne są w scripts/verify_models.py oraz w repozytorium HF. Model segmentacji BLLA pochodzi z instalacji Kraken 7.0.2.

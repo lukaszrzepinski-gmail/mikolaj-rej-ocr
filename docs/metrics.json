@@ -1,0 +1,151 @@
+{
+  "dataset": "RAW110 pseudo DEV",
+  "selection_set": true,
+  "independent_human_gold": false,
+  "reference_kind": "inherited pseudo/silver",
+  "normalization": "NFC and collapsed whitespace",
+  "samples": 110,
+  "reference_characters": 4114,
+  "reference_digit_characters": 9,
+  "macro_definition": "Arithmetic mean of five within-domain micro CER values",
+  "raw": {
+    "macro": 0.07186786942099231,
+    "CER": 0.07656781720952843,
+    "errors": 315,
+    "exact": 22,
+    "WER": 0.3412112259970458,
+    "digit_char_errors": 4,
+    "domain": {
+      "cdial_letters": {
+        "samples": 37,
+        "char_errors": 149,
+        "chars": 1670,
+        "cer": 0.08922155688622754
+      },
+      "diariusz": {
+        "samples": 24,
+        "char_errors": 28,
+        "chars": 913,
+        "cer": 0.03066812705366922
+      },
+      "psalterz": {
+        "samples": 17,
+        "char_errors": 27,
+        "chars": 343,
+        "cer": 0.07871720116618076
+      },
+      "rozmyslanie": {
+        "samples": 24,
+        "char_errors": 94,
+        "chars": 833,
+        "cer": 0.11284513805522209
+      },
+      "ortyle": {
+        "samples": 8,
+        "char_errors": 17,
+        "chars": 355,
+        "cer": 0.04788732394366197
+      }
+    }
+  },
+  "diariusz_lm": {
+    "macro": 0.058402508195526545,
+    "CER": 0.053475935828877004,
+    "errors": 220,
+    "exact": 38,
+    "WER": 0.23929098966026588,
+    "digit_char_errors": 0,
+    "domain": {
+      "cdial_letters": {
+        "samples": 37,
+        "char_errors": 77,
+        "chars": 1670,
+        "cer": 0.04610778443113772
+      },
+      "diariusz": {
+        "samples": 24,
+        "char_errors": 12,
+        "chars": 913,
+        "cer": 0.013143483023001095
+      },
+      "psalterz": {
+        "samples": 17,
+        "char_errors": 28,
+        "chars": 343,
+        "cer": 0.08163265306122448
+      },
+      "rozmyslanie": {
+        "samples": 24,
+        "char_errors": 86,
+        "chars": 833,
+        "cer": 0.10324129651860744
+      },
+      "ortyle": {
+        "samples": 8,
+        "char_errors": 17,
+        "chars": 355,
+        "cer": 0.04788732394366197
+      }
+    }
+  },
+  "korba_comparison_not_distributed": {
+    "macro": 0.09636675259517737,
+    "CER": 0.09261059795819154,
+    "errors": 381,
+    "exact": 17,
+    "WER": 0.38552437223042835,
+    "digit_char_errors": 2,
+    "domain": {
+      "cdial_letters": {
+        "samples": 37,
+        "char_errors": 140,
+        "chars": 1670,
+        "cer": 0.08383233532934131
+      },
+      "diariusz": {
+        "samples": 24,
+        "char_errors": 31,
+        "chars": 913,
+        "cer": 0.033953997809419496
+      },
+      "psalterz": {
+        "samples": 17,
+        "char_errors": 37,
+        "chars": 343,
+        "cer": 0.10787172011661808
+      },
+      "rozmyslanie": {
+        "samples": 24,
+        "char_errors": 143,
+        "chars": 833,
+        "cer": 0.1716686674669868
+      },
+      "ortyle": {
+        "samples": 8,
+        "char_errors": 30,
+        "chars": 355,
+        "cer": 0.08450704225352113
+      }
+    }
+  },
+  "lm_settings": {
+    "alpha": 0.5,
+    "beta": 1,
+    "beam": 64,
+    "cutoff": 0.001,
+    "temperature": 1
+  },
+  "D17": {
+    "pages": 17,
+    "reference_characters_NFC": 17503,
+    "raw_errors": 1742,
+    "raw_CER": 0.09952579557790094,
+    "diariusz_lm_errors": 1528,
+    "diariusz_lm_CER": 0.08729932011655145,
+    "known_DEV": true,
+    "independent_human_gold": false,
+    "segmentation_fields": 495,
+    "reference_limit": "Claude-prepared, viewed by owner; no documented independent character-level correction; marginalia/additions incomplete"
+  },
+  "mission_target_verified": false
+}

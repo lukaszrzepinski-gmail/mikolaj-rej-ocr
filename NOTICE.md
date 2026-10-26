@@ -1,0 +1,10 @@
+# Autorstwo i zakres praw
+
+Nowy wkład projektu Rej: Łukasz Rzepiński, 2026. Własne warunki w LICENSE dotyczą wyłącznie jego praw do kodu aplikacji, integracji, dokumentacji i wkładu adaptacyjnego w modelach. Nie przyznają praw do cudzych materiałów. Ochrona i granica własnego wkładu w parametry nie zostały tu prawnie rozstrzygnięte.
+
+- **Baza rozpoznawacza:** McCATMuS_nfd_nofix_V1, Alix Chagué; współtwórcy Thibault Clérice, Ariane Pinche, Simon Gabay. DOI: https://doi.org/10.5281/zenodo.13788177 . Licencja oryginału: https://creativecommons.org/licenses/by/4.0/ . Zmiany: kolejne adaptacje Argon/Rej, bulk continuation K11, eksport E26; oczyszczenie lokalnych ścieżek metadanych w kopii publikacyjnej. Nie sugerujemy poparcia autorów bazy.
+- **Kraken:** Benjamin Kiessling i współtwórcy, Apache-2.0, https://github.com/mittagessen/kraken/tree/7.0.2 . Reguły geometryczne kolejności czytania korzystają z zasad Krakena; właściwe prawa upstream pozostają zachowane. Program i dostarczany przez niego model segmentacji nie są nowym modelem wytrenowanym przez Rej. Pełny tekst Apache-2.0 jest w THIRD_PARTY_APACHE_2_0.txt w repozytorium kodu.
+- **KenLM:** Kenneth Heafield i współtwórcy, głównie LGPL-2.1-or-later z wyjątkami opisanymi w upstream LICENSE: https://github.com/kpu/kenlm . Nie dołączamy bibliotek .pyd/.dll/.so ani prywatnego środowiska. Licencja biblioteki KenLM nie ustala automatycznie praw do wytrenowanego LM i jego korpusów.
+- **Przykłady Polony:** Biblioteka Narodowa, Psałterz floriański (Rps 8002 III), Rozmyślanie przemyskie (Rps 8024 II), Ortyle prawa magdeburskiego (Rps 12575 II). Oznaczone w źródłowych manifestach jako domena publiczna. Kadrowanie na pojedyncze wiersze pochodzi z wcześniejszego przygotowania danych. Oznaczenie domeny publicznej nie jest zastępowane licencją projektu. Dokładne źródła i hashe podaje examples/examples.json.
+
+Pozostałe zależności instalowane z rejestrów zachowują własne licencje. Pliki danych treningowych i korpusy tekstowe nie są objęte pakietem.

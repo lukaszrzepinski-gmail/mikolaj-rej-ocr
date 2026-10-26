@@ -1,0 +1,8 @@
+# Direct runtime versions observed in the original export/smoke environment.
+# Install the CPU torch/torchvision wheels first; see docs/LOCAL_INFERENCE.md.
+# This is a direct-dependency pin set, not a complete transitive lock file.
+kraken==7.0.2
+torch==2.10.0
+torchvision==0.25.0
+coremltools==9.0
+Pillow==12.3.0

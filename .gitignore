@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+models/*
+!models/README.md
+*.ckpt
+*.bin
+*.mlmodel
+*.pyd
+*.dll
+*.so
+app/logs/
+app/_*.json
+_historia_ocr/
+_podglad_segmentacji/
+*.log
+.env

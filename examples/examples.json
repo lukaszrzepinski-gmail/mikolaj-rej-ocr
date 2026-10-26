@@ -1,0 +1,126 @@
+{
+  "examples": [
+    {
+      "id": "archive__psalterz-psalterz-067C-l025",
+      "domain": "psalterz",
+      "image": "archive__psalterz-psalterz-067C-l025.png",
+      "sha256": "4d1de03e1c5fbbc87f1678e587d9650ca50a688ee311e27ce0cc99ddd5f73341",
+      "prediction_RAW_E26": "godzo ſergza iego dalies",
+      "known_pseudo_DEV": true,
+      "not_human_gold": true,
+      "selection": "First ID in this domain, lexicographic order; no selection by accuracy or confidence",
+      "dimensions_wh": [
+        514,
+        128
+      ],
+      "source": {
+        "manifest_url": "https://polona.pl/api/search-service/search/iiif/2f1c8624-a5cc-45e2-861d-29269f2146da/manifest.json",
+        "canvas_url": "https://polona.pl/iiif/3/8fb1735b-396d-4f49-bec8-00768ded9293/info.json",
+        "image_url": "https://polona.pl/iiif/3/8fb1735b-396d-4f49-bec8-00768ded9293/full/max/0/default.jpg",
+        "card_label": "31r",
+        "card_number": 67,
+        "card_uuid": "8fb1735b-396d-4f49-bec8-00768ded9293"
+      },
+      "rights": "Source manifest marked Public Domain; Biblioteka Narodowa / Polona",
+      "changes": "Existing line crop and resampling; supplied PAGE contains geometry only",
+      "geometry": {
+        "page_bbox_xyxy": [
+          984.0,
+          2262.0,
+          1423.0,
+          2361.0
+        ],
+        "page_dimensions_wh": [
+          2000,
+          3008
+        ],
+        "coordinate_status": "PAGE_pixel_coordinates_from_original_xml; raw_spread_transform_not_recovered",
+        "coordinate_format": "bounding_box_xyxy; full polygon in local source_geometry.jsonl",
+        "canvas_bbox_xyxy": null,
+        "canvas_transform_status": "Not recovered; PAGE coordinates must not be assumed to be full-canvas coordinates"
+      }
+    },
+    {
+      "id": "archive__rozmyslanie-rozmyslanie-004R-l014",
+      "domain": "rozmyslanie",
+      "image": "archive__rozmyslanie-rozmyslanie-004R-l014.png",
+      "sha256": "502c0846aea2ab105a919456c408d7e65130303ed5c0a61078289365194185ee",
+      "prediction_RAW_E26": "rodzay czlovyeczy przykazaleſz gynſze myczycz",
+      "known_pseudo_DEV": true,
+      "not_human_gold": true,
+      "selection": "First ID in this domain, lexicographic order; no selection by accuracy or confidence",
+      "dimensions_wh": [
+        1447,
+        128
+      ],
+      "source": {
+        "manifest_url": "https://polona.pl/api/search-service/search/iiif/8ca61357-7fcb-4dfd-96bf-1be820f90eba/manifest.json",
+        "canvas_url": "https://polona.pl/iiif/3/ae5712c0-f4a5-4bcc-a3d2-8aaf7bbd9b3f/info.json",
+        "image_url": "https://polona.pl/iiif/3/ae5712c0-f4a5-4bcc-a3d2-8aaf7bbd9b3f/full/max/0/default.jpg",
+        "card_label": "4-5",
+        "card_number": 4,
+        "card_uuid": "ae5712c0-f4a5-4bcc-a3d2-8aaf7bbd9b3f"
+      },
+      "rights": "Source manifest marked Public Domain; Biblioteka Narodowa / Polona",
+      "changes": "Existing line crop and resampling; supplied PAGE contains geometry only",
+      "geometry": {
+        "page_bbox_xyxy": [
+          121.0,
+          1252.0,
+          860.0,
+          1320.0
+        ],
+        "page_dimensions_wh": [
+          1172,
+          1651
+        ],
+        "coordinate_status": "PAGE_pixel_coordinates_from_original_xml; raw_spread_transform_not_recovered",
+        "coordinate_format": "bounding_box_xyxy; full polygon in local source_geometry.jsonl",
+        "canvas_bbox_xyxy": null,
+        "canvas_transform_status": "Not recovered; PAGE coordinates must not be assumed to be full-canvas coordinates"
+      }
+    },
+    {
+      "id": "archive__ortyle-ortyle-022R-l020",
+      "domain": "ortyle",
+      "image": "archive__ortyle-ortyle-022R-l020.png",
+      "sha256": "8c0020241446e74628366cab2af4e04f4c658a995a6cd9d394f975dcff968761",
+      "prediction_RAW_E26": "nyewyaſtha nyemoſe dacz ſwego gymyenya czo",
+      "known_pseudo_DEV": true,
+      "not_human_gold": true,
+      "selection": "First ID in this domain, lexicographic order; no selection by accuracy or confidence",
+      "dimensions_wh": [
+        1672,
+        128
+      ],
+      "source": {
+        "manifest_url": "https://polona.pl/api/search-service/search/iiif/58a8443d-0959-4613-8554-d4d01429f833/manifest.json",
+        "canvas_url": "https://polona.pl/iiif/3/96af1b40-f8e6-44e5-8901-59b5d99171f0/info.json",
+        "image_url": "https://polona.pl/iiif/3/96af1b40-f8e6-44e5-8901-59b5d99171f0/full/max/0/default.jpg",
+        "card_label": "21v-22r",
+        "card_number": 22,
+        "card_uuid": "96af1b40-f8e6-44e5-8901-59b5d99171f0"
+      },
+      "rights": "Source manifest marked Public Domain; Biblioteka Narodowa / Polona",
+      "changes": "Existing line crop and resampling; supplied PAGE contains geometry only",
+      "geometry": {
+        "page_bbox_xyxy": [
+          193.0,
+          1400.0,
+          1109.0,
+          1465.0
+        ],
+        "page_dimensions_wh": [
+          1504,
+          2000
+        ],
+        "coordinate_status": "PAGE_pixel_coordinates_from_original_xml; raw_spread_transform_not_recovered",
+        "coordinate_format": "bounding_box_xyxy; full polygon in local source_geometry.jsonl",
+        "canvas_bbox_xyxy": null,
+        "canvas_transform_status": "Not recovered; PAGE coordinates must not be assumed to be full-canvas coordinates"
+      }
+    }
+  ],
+  "new_OCR_executed": false,
+  "reference_texts_published": false
+}

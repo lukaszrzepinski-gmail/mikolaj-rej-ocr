@@ -1,0 +1,61 @@
+{
+  "schema": "rej-publication-model-provenance-v1",
+  "candidate": "K11 E26 / global step 345005",
+  "author": "Łukasz Rzepiński",
+  "source_checkpoint": {
+    "sha256": "8be6b29357af521ef4ce8787fc09a4aec1eb32b5ff5718a6e41da60431cec56a",
+    "bytes": 59189269,
+    "published": false
+  },
+  "original_gui_export": {
+    "sha256": "195ea0b23068214d68fdef5cd62fd29b76a3775861ecbbca99b014a10b2e0c84",
+    "bytes": 16437496
+  },
+  "publication_model": {
+    "filename": "MikolajRej-KRA-K11-E26-step345005.mlmodel",
+    "sha256": "871092c802375e0100c1b2efefb2dcf687b87022f2305723dfffb9aeef5e243d",
+    "bytes": 16437242
+  },
+  "neural_network_serialized_field_sha256": "6e8056092796dfd1714dc3628f4d76491feea5e7eea29a0dec616edc0b1cff87",
+  "all_non_metadata_bytes_identical": true,
+  "vgsl_and_codec_metadata_identical": true,
+  "source_paths_removed": true,
+  "original_export_unchanged": true,
+  "framework_imported_for_sanitization": false,
+  "sanitized_copy_inference_rerun": false,
+  "original_export_had_prior_cpu_smoke": true,
+  "prior_smoke_scope": "Two known lines; nonempty output; not independent accuracy validation.",
+  "input": [
+    1,
+    1,
+    120,
+    0
+  ],
+  "output": [
+    1,
+    294,
+    1,
+    1
+  ],
+  "one_channel_mode": "L",
+  "seg_type": "baselines",
+  "legacy_polygons": false,
+  "ctc_codec_symbols": 293,
+  "kraken_version": "7.0.2",
+  "source": {
+    "version": "v11",
+    "phase_epoch": 26,
+    "checkpoint_native_epoch": 25,
+    "global_step": 345005,
+    "context_sha256": "4dc9d90b4eb8196b0460a28d16c8a8754cdd0aa236ece5766de4a3c78a264ac6",
+    "engine_source": {
+      "sha256": "ac2660a631f8903cfb1ba10d4f9c60536950972dcda9467472e4b31719211770",
+      "bytes": 56865
+    },
+    "inherited_complete_epochs": 7,
+    "inherited_partial_tail_updates": 3574,
+    "checkpoint_sha256": "8be6b29357af521ef4ce8787fc09a4aec1eb32b5ff5718a6e41da60431cec56a",
+    "exported_utc": "2026-10-26T21:29:37.455792+00:00",
+    "metadata_sanitization": "Removed local file paths from source metadata; model payload unchanged."
+  }
+}
