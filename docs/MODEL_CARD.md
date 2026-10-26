@@ -54,3 +54,10 @@ Własny chroniony wkład Łukasza Rzepińskiego: użycie niekomercyjne z atrybuc
 ## Kod i aplikacja
 
 [Kod aplikacji webowej, segmentacja i pipeline](https://github.com/lukaszrzepinski-gmail/mikolaj-rej-ocr). [Pliki modelu i Diariusz LM](https://huggingface.co/lukaszrzepinski/MikolajRej/tree/main).
+
+## O autorze i kontakt
+
+**Łukasz Rzepiński** jest Solution Architect pracującym w obszarze medycyny oraz autorem serwisów [ofertarium.pl](https://ofertarium.pl/), [lekoskop.pl](https://lekoskop.pl/), [ostint.pl](https://ostint.pl/) i [zrodlacyfrowe.pl](https://zrodlacyfrowe.pl/).
+
+Kontakt z autorem, w tym w sprawie zgody na wykorzystanie komercyjne: [lukasz.rzepinski@gmail.com](mailto:lukasz.rzepinski@gmail.com).
+

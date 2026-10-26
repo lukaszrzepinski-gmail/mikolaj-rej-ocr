@@ -20,3 +20,9 @@ Repozytorium udostępnia kod do lokalnego uruchomienia. Samo opublikowanie kodu 
 
 [zbiorycyfrowe.pl](https://zbiorycyfrowe.pl/) to projekt przetwarzania zasobów archiwalnych przy użyciu sztucznej inteligencji. MikołajRej OCR jest narzędziem wspierającym rozpoznawanie i opracowanie tekstu historycznych dokumentów.
 
+## O autorze i kontakt
+
+**Łukasz Rzepiński** jest Solution Architect pracującym w obszarze medycyny oraz autorem serwisów [ofertarium.pl](https://ofertarium.pl/), [lekoskop.pl](https://lekoskop.pl/), [ostint.pl](https://ostint.pl/) i [zrodlacyfrowe.pl](https://zrodlacyfrowe.pl/).
+
+Kontakt z autorem, w tym w sprawie zgody na wykorzystanie komercyjne: [lukasz.rzepinski@gmail.com](mailto:lukasz.rzepinski@gmail.com).
+
