@@ -57,3 +57,8 @@ Contact: [lukasz.rzepinski@gmail.com](mailto:lukasz.rzepinski@gmail.com).
 [Full model card and provenance](docs/MODEL_CARD.md) · [Evaluation and limitations](docs/EVALUATION.md) · [File and source notices](NOTICE.md) · [Checksums](SHA256SUMS).
 
 Names, dates and digits still need human review. The detailed model card keeps the known-DEV caveats, source limitations and runtime verification scope; the screenshots are illustrative, not a new benchmark.
+
+
+## Experimental E105 model
+
+[Download E105](https://huggingface.co/lukaszrzepinski/MikolajRej/blob/main/MikolajRej-KRA-DateStrings-E105-step554359.mlmodel) · [Evaluation and provenance](docs/MODEL_E105.md). E105 is an additional candidate; E26 and the Diariusz language model remain available. Development scores are not independent test results.
