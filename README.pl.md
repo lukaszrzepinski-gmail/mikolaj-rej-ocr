@@ -57,3 +57,8 @@ Kontakt: [lukasz.rzepinski@gmail.com](mailto:lukasz.rzepinski@gmail.com).
 [Pełna model card i pochodzenie](docs/MODEL_CARD.pl.md) · [Wyniki i ograniczenia](docs/EVALUATION.md) · [Autorstwo i prawa źródeł](NOTICE.md) · [Sumy kontrolne](SHA256SUMS).
 
 Nazwiska, daty i cyfry nadal wymagają kontroli człowieka. Szczegółowa dokumentacja zachowuje ograniczenia DEV, pochodzenia i zakresu sprawdzenia środowiska; zrzuty są ilustracją, nie nowym benchmarkiem.
+
+
+## Eksperymentalny model E105
+
+[Pobierz E105](https://huggingface.co/lukaszrzepinski/MikolajRej/blob/main/MikolajRej-KRA-DateStrings-E105-step554359.mlmodel) · [Wyniki i pochodzenie](https://huggingface.co/lukaszrzepinski/MikolajRej/blob/main/MODEL_E105.pl.md). E105 to dodatkowa wersja; E26 i LM Diariusza pozostają dostępne. Wyniki DEV nie są niezależnym testem.
